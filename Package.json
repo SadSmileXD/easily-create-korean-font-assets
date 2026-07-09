@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "displayName": "easily-create-korean-font-assets",
   "description": "한글 11,172자 생성 툴 TMP 설정 들어가서 이것저것 설정하기 귀찮아서 제작하게 되었습니다.",
-  "unity": "2022",
+  "unity": "2022.3",
   "license": "MIT"
 }
