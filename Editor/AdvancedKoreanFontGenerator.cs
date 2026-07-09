@@ -7,7 +7,7 @@ public class AdvancedKoreanFontGenerator : EditorWindow
 {
     private Font sourceFont;
 
-    [MenuItem("Tools/Advanced Korean Font Generator")]
+    [MenuItem("Tools/Easy to generate Korean Font")]
     public static void ShowWindow()
     {
         GetWindow<AdvancedKoreanFontGenerator>("TMP한글 폰트 생성기");
@@ -18,7 +18,7 @@ public class AdvancedKoreanFontGenerator : EditorWindow
         GUILayout.Label("한글 11,172자 포함 폰트 생성기", EditorStyles.boldLabel);
         sourceFont = (Font)EditorGUILayout.ObjectField("폰트 파일", sourceFont, typeof(Font), false);
 
-        if (GUILayout.Button("전체 한글 폰트 생성하기"))
+        if (GUILayout.Button("한글 폰트 생성하기"))
         {
             if (sourceFont != null) GenerateFullKoreanFont();
             else EditorUtility.DisplayDialog("알림", "폰트 파일을 먼저 넣어주세요.", "확인");
