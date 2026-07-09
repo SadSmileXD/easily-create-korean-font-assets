@@ -1,0 +1,7 @@
+{
+  "name": "com.korean.fontgenerator",
+  "version": "1.0.0",
+  "displayName": "Advanced Korean Font Generator",
+  "description": "한글 11,172자 생성 툴",
+  "unity": "2021.3"
+}
