@@ -10,7 +10,7 @@ public class AdvancedKoreanFontGenerator : EditorWindow
     [MenuItem("Tools/Advanced Korean Font Generator")]
     public static void ShowWindow()
     {
-        GetWindow<AdvancedKoreanFontGenerator>("고급 한글 폰트 생성기");
+        GetWindow<AdvancedKoreanFontGenerator>("TMP한글 폰트 생성기");
     }
 
     private void OnGUI()
